@@ -179,3 +179,62 @@ footer span {
 	color: #77a466;
 	font-size: 14px;
 }
+
+/* tablet */
+
+@media (min-width: 768px) {
+	.bottom-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-basis: auto;
+		border-top: 2px solid #BF0B3B;
+	}
+	.section-one {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-basis: 30%;
+	}
+
+	.section-two {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-basis: 30%;
+		border-right: 2px solid #731022;
+		border-left: 2px solid #731022;
+	}
+
+	.section-three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-basis: 30%;
+	}
+}
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header h1 {
+        width: 30%;
+        padding: 0;
+        border-bottom: none;
+        text-align: left;
+    }
+
+    header nav {
+        width: 40%;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
